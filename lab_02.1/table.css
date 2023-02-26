@@ -1,0 +1,36 @@
+table {
+    width: 700px;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+hr {
+    border: 1px dotted black;
+}
+
+.td-item-text {
+    text-align: left;
+}
+
+.td-day-item {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 22px;
+}
+
+.td-item,
+.td-day-item,
+th {
+    background-color: #dae1f8;
+}
+
+.td-item {
+    font-weight: bold;
+    padding: 5px;
+}

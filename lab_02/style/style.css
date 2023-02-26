@@ -1,0 +1,28 @@
+.table thead
+{
+background-color: а #dae1f8;
+}
+
+.table tfoot
+{
+ background-color:  #5776b1;
+}
+
+.table td
+{
+    border: 1px solid #91a5e5; 
+}
+
+.table th
+{
+    border: 1px solid #91a5e5;
+    background-color: #dae1f8
+    ; 
+}
+
+
+
+.table 
+{
+border-collapse: collapse;
+}
