@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/bottuon.css">
+    <link rel="stylesheet" href="css/modal.css">
+
+    <title> Component</title>
+</head>
+
+<body>
+
+    <div class="component-container">
+
+        <div class="img-container"><img src="images/tb.jpg" alt="tb" width="230px"></div>
+
+        <p><b>Виробиник/Модель:</b></p>
+        <p>Samsung Neo QLED 4K QN90B</p>
+        <p>Україна</p>
+        <p>Діагональ/дюйми: 85</p>
+        <p>Роздільна здатність, пікселі: 3,840 x 2,160</p>
+        <p>Роз'єм: HDMI</p>
+        <p>Підтримка SmartTV</p>
+        <div class="button-container">
+            <button class="yes-button"><b><a href="#modal-overlay" class="yes-button-link">Так</a></b></button>
+            <button class="no-button"><b>Ні</b></button>
+        </div>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay">
+
+        <div class="modal">
+
+            <div class="modal-header">
+                <h1 class="header-items-text">TV options</h1>
+                <!-- <label for="click" class="header-items-close">&times</label> -->
+                <span class="span-close"><a href="" class="header-items-close">&times</a></span>
+            </div>
+
+            <div class="modal-content">
+                <h2>Модель:</h2>
+                <input type="text" class="input-items" placeholder="Введіть модель">
+
+                <h2>Діагональ/дюйми:</h2>
+                <input type="text" class="input-items" placeholder="Введіть діагональ">
+
+                <h2>Роздільна здатність</h2>
+                <input type="text" placeholder="Введіть роздільну здатність" class="input-items">
+
+                <h2>Роз'єми:</h2>
+                <select name="cup-material" id="" class="input-items">
+                    <option value="DVI">DVI</option>
+                    <option value="HDMI">HDMI</option>
+                    <option value="VGA">VGA</option>
+                </select>
+
+                <span class="modal-content-photo"><img src="#" alt="photo"></span>
+                <h2>Select image file:</h2>
+                <input type="file"> <br>
+
+                <div class="button">
+                    <button class="button-item">Confirm</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<!-- Виробник/Модель
+Діагональ, дюйми
+Роздільна здатність, пікселі
+Роз’єми
+Підтримка SmartTV (так/ні) -->

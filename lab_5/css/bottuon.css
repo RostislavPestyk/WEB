@@ -1,0 +1,31 @@
+.button-container {
+    padding: 10px 0 10px 0;
+}
+
+.yes-button {
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+}
+
+.yes-button-link {
+    text-decoration: none;
+}
+
+.yes-button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.no-button {
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+}
+
+.no-button:hover {
+    background-color: red;
+    cursor: pointer;
+}

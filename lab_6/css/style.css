@@ -1,0 +1,24 @@
+.header {
+    background-color: blueviolet;
+    color: black;
+}
+
+.left {
+    float: left;
+    margin: 5px 10px 5px 0;
+}
+
+.div::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+img {
+    border: 1px solid black;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: #fff;
+}

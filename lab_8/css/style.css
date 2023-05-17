@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: Verdana;
+    background: CornflowerBlue;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+    /* flex-direction: row; */
+}
+
+/* Стилі для випадаючого списку */
+
+.contact-info {
+    position: relative;
+    transition: background-color 0.2s ease;
+}
+
+.contact-info-items {
+    list-style: none;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: orange;
+}
+
+.contact-info:hover {
+    background-color: orange;
+}
+
+.contact-info:hover ul {
+    display: block;
+}
+
+/* Стилі для посилань */
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    min-width: 200px;
+}
+
+/* Header */
+
+p {
+    margin-top: 40px;
+}

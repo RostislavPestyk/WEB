@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component-container {
+    background-color: #c0c0c0;
+    width: 240px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.img-container {
+    padding-top: 10px;
+}
+
+p {
+    padding-bottom: 5px;
+}

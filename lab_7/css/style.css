@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Головний бок==лок */
+.wrapper {
+    min-height: 100vh;
+    /*Ззадаю максимальний розмір сторінки*/
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color:   dodgerblue;
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+}
+
+/* Головний контейнер */
+.main-container,
+.contetnt-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+/* Стилі для менію навігації та контенту */
+.logo,
+.menu,
+.search,
+.side-menu,
+.content,
+.unit,
+footer {
+    border: 1px solid black;
+    height: 50px;
+    background-color: dodgerblue;
+}
+
+/* Футер */
+footer {
+    margin-top: auto;
+    /*роблю відступ зверху автоматичним поки він не 
+      впреться в кінець сторінки*/
+    background-color:   dodgerblue;
+    text-align: center;
+}
+
+/* Ширина бокових блоків */
+.logo,
+.search,
+.side-menu,
+.unit {
+    width: 150px;
+}
+
+/* Заповнюю все пусте місце для головного меню та блоку з контентом*/
+.menu,
+.content {
+    flex-grow: 1;
+}
+
+/* Задаю відступи */
+.wrapper,
+.main-container,
+.contetnt-container {
+    margin-top: 5px;
+}
+
+.search, .unit {
+    margin-left: 5px;
+}
+
+.logo, .side-menu {
+    margin-right: 5px;
+}

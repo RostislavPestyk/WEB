@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: green;
+  height: 40px;
+}
+.container .nav li {
+  list-style: none;
+  text-align: center;
+}
+.container .nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-container h1, .main-container p {
+  text-align: center;
+}
